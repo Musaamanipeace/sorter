@@ -1,0 +1,67 @@
+/* Theme Palette & Aesthetics */
+body {
+  background-color: #0f111a;
+  color: #e0e6ed;
+}
+
+.app-header h1 {
+  color: #ff3366;
+  text-shadow: 0 0 10px rgba(255, 51, 102, 0.4);
+}
+
+/* Controls Styling */
+input, select, button {
+  background-color: #1a1d2e;
+  color: #e0e6ed;
+  border: 1px solid #2e344e;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  outline: 1px solid #ff3366;
+  border-color: #ff3366;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e02855;
+}
+
+/* Table Styling */
+table {
+  background-color: #161824;
+  border: 1px solid #2e344e;
+}
+
+th {
+  background-color: #1f2337;
+  color: #ff3366;
+  border-bottom: 2px solid #2e344e;
+}
+
+tr:nth-child(even) {
+  background-color: #121420;
+}
+
+tr:hover {
+  background-color: #252a40;
+}
+
+td {
+  border-bottom: 1px solid #2e344e;
+}
+
+/* Modal Styling */
+.modal-content {
+  background-color: #161824;
+  border: 1px solid #ff3366;
+  box-shadow: 0 0 20px rgba(255, 51, 102, 0.2);
+}
