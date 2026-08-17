@@ -13,7 +13,7 @@ async function initApp() {
   const searchContainer = document.querySelector('#search-controls');
   const tableContainer = document.querySelector('#table-container');
   const paginationContainer = document.querySelector('#pagination-controls');
-  const modalContainer = document.querySelector('#modal-container');
+  const modalContainer = document.querySelector('#detail-modal');
 
   // Show loading indicator in table area
   if (tableContainer) {
